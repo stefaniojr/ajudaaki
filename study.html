@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda Aki | A maior rede colaborativa gratuita entre universitários capixabas!</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-study.css">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body id="page-study">
+
+    <div id="container">
+
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                    <img src="/images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="/images/logo.svg" alt="Ajuda Aki">
+            </div>
+
+            <div class="header-content">
+                <strong>Monitores disponíveis:</strong>
+                <form id="search-teachers">
+                    <div class="select-block">
+                        <label for="subject">Disciplina</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="1">Programação II</option>
+                            <option value="2">Programação III</option>
+                            <option value="3">Estrutura de Dados I</option>
+                            <option value="4">Cálculo I</option>
+                            <option value="5">Cálculo II</option>
+                            <option value="6">Cálculo III-A</option>
+                            <option value="7">Cálculo III-B</option>
+                            <option value="8">Álgebra Linear</option>
+                            <option value="9">Circuitos Elétricos I</option>
+                            <option value="10">Circuitos Elétricos II</option>
+                        </select>
+                    </div>
+
+                    <div class="select-block">
+                        <label for="weekday">Dia da semana</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Segunda-feira</option>
+                            <option value="2">Terça-feira</option>
+                            <option value="3">Quarta-feira</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta-feira</option>
+                            <option value="6">Sábado</option>
+                        </select>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="time">Horário</label>
+                        <input name="time" id="time" type="time">
+                    </div>
+                    <button type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://avatars0.githubusercontent.com/u/52108997?s=460&u=1c2893ad23d13844d3ced5d17970dfed772c61ce&v=4" 
+                        alt="Stefânio Jr.">
+                    <div>
+                        <strong>Stefânio Jr.</strong>
+                        <span>Cálculo II</span>
+                    </div>
+                </header>
+            
+                <p><i>Testando, testando...</i><br><br>Estudante de Engenharia da Computação pela UFES e desenvolvedor do Ajuda Aki. Fascinado por Matemática, Física e perdido entre planilhas e códigos. Cursei Cálculo II Com Pink Hellvira e fui aprovado com suados 5.0, logo, tenho altos conhecimentos nesse ramo.</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 0,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://pbs.twimg.com/profile_images/1130634349341237249/MZHdYBYc_400x400.jpg" 
+                        alt="Lívia Barcellos Botelho">
+                    <div>
+                        <strong>Lívia B. Botelho</strong>
+                        <span>Estrutura de Dados I</span>
+                    </div>
+                </header>
+            
+                <p><i>Posso cobrar em pounds?</i><br><br>Estudante de Engenharia da Computação pela UFES e fundadora da PocComp. Vazamento de memória? Amor, você está falando com a pessoa certa! Depois que eu te ajudar você nunca mais vai sofrer com memory leak. Só vem, bb.</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 0,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://pbs.twimg.com/profile_images/1228881652891504641/Kh7ZFUqL_400x400.jpg" 
+                        alt="Camila B. Cremasco">
+                    <div>
+                        <strong>Camila B. Cremasco</strong>
+                        <span>Álgebra Linear</span>
+                    </div>
+                </header>
+            
+                <p><i>Olha, eu não a favor, mas também não sou contra, eu só acho que...</i><br><br>Doutora em Álgebra Linear, tendo cursado mais 200 horas da disciplina e realizado mais de 10 provas. Te garanto que você se tornará um crack nesta disciplina depois que passar por meus cuidados!</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 0,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
